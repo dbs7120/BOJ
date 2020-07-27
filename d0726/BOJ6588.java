@@ -1,3 +1,5 @@
+package d0726;
+
 import java.util.Scanner;
 
 public class BOJ6588 {
