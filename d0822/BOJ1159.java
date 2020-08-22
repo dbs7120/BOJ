@@ -1,6 +1,7 @@
 package d0822;
 import java.util.Scanner;
 
+// 농구경기
 public class BOJ1159 {
 
 	static int N;
