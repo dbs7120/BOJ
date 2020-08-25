@@ -2,7 +2,7 @@ package d0822;
 
 import java.util.Scanner;
 
-// N과 M (1)
+// N과 M (1) => 순열 ( n P m )
 public class BOJ15649 {
 	static int n;
 	static int m;

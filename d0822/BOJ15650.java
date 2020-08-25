@@ -2,7 +2,7 @@ package d0822;
 
 import java.util.Scanner;
 
-//N과 M (2)
+//N과 M (2) => 조합 ( n C m )
 public class BOJ15650 {
 	static int n;
 	static int m;

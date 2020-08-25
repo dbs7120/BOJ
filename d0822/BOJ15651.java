@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
-//N과 M (3)
+//N과 M (3) => 중복 순열 ( n Π m )
 //BW 미사용시 시간초과
 public class BOJ15651 {
 	static int n;

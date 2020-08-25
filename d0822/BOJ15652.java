@@ -25,7 +25,7 @@ public class BOJ15652 {
 
 	}
 
-	public static void DFS(int cnt) throws IOException { // 중복 순열
+	public static void DFS(int cnt) throws IOException {
 		if (cnt == m) {
 			for (int i = 0; i < m; i++) {
 				bw.write(arr[i] + " ");
