@@ -1,7 +1,7 @@
 package d0902;
 import java.util.Scanner;
 
-// 미세먼지 안녕!
+// 촌수계산(DFS)
 public class BOJ2644_DFS {
 
 	static int N, M;

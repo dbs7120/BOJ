@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+// 촌수계산(BFS)
 public class BOJ2644_BFS_DP {
 
 	static int N, M;

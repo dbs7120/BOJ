@@ -8,6 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+// 말이 되고픈 원숭이
 public class BOJ1600 {
 	static class Loc {
 		int y;
