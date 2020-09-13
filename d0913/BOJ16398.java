@@ -1,4 +1,5 @@
 package d0913;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -40,7 +41,7 @@ public class BOJ16398 {
 			st = new StringTokenizer(br.readLine(), " ");
 			for (int j = 0; j < N; j++) {
 				int d = Integer.parseInt(st.nextToken());
-				if (i != j) {
+				if (i > j) {
 					nodes.add(new Node(i, j, d));
 				}
 			}
