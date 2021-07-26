@@ -7,6 +7,8 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
+// 2021-07-26
+// 달팽이는 올라가고 싶다
 public class BOJ2869 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,10 +17,14 @@ public class BOJ2869 {
 		int A = Integer.parseInt(st.nextToken());
 		int B = Integer.parseInt(st.nextToken());
 		int V = Integer.parseInt(st.nextToken());
-		int result = (int) Math.ceil((V - B) / (A - B));
+		int result;
 
+		if ((V - A) % (A - B) == 0)
+			result = (V - A) / (A - B);
+		else
+			result = (V - A) / (A - B) + 1;
 
-		bw.append((result) + "\n");
+		bw.append((result + 1) + "\n");
 		bw.flush();
 		bw.close();
 		br.close();
